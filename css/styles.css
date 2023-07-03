@@ -1,33 +1,46 @@
-.para.small-para,
-.para {
-    font-weight: bold;
-}
+body {
+    background: #eee;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    border-width: 8px;
+    border-color: white;
+    border-style: solid;
+  }
+  
+  .title {
+    background: #e3f4ff;
+    font-size: 18px ;
+    padding: 8px 4px;
+    margin: auto;
 
-.para {
-    font-size: x-large;
-}
+  }
+  
+  .content {
+    background: #e3f4ff;
+    border-bottom: 8px solid white;
+    border-top: 8px solid white;
+    padding: 12px 4px;
+    font-style: bold; 
+  }
 
-.small-para {
-    font-size: medium;
-}
-
-#confirm-button {
-    background-color: green;
-    color: white;
-    font-weight: bold;
-
-}
-
-#cancel-button {
-    background-color: white;
-}
-
-.text {
-    font-size:large;
-    font-weight: 100;
-}
-
-.text .child {
-    font-weight: bold;
-    font-size: small;
-}
+  .button-container {
+    background: #e3f4ff;
+    padding: 8px;
+    text-align: center;
+    
+    
+        
+  }
+  
+  button {
+    background: white;
+    border: 1px solid #eee;
+    padding: 8px 24px;
+    display: block;
+    margin: auto;
+  }
